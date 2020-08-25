@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="stylesheethotel.css"/>
+</head>
+<body>
+<h1>Tip Calculator
+<img src="tipcal.webp" height="50" width="50"/>
+</h1>
+<div class="container">
+<div class="row">
+<label>Bill Amount</label><br>
+<input type="number" name="" id="bill_amount" size="50" required/>
+</div>
+<br><br>
+<div class="row">
+<label>Tip percentage</label><br>
+<input type="number" name="" id="tip_perc" size="50" required/>
+</div>
+<br><br>
+<button id="btn" onclick="tipcal()">calculate</button>
+<br><br>
+<div class="row">
+<label>Tip Amount</label><br>
+<input type="number" name="" id="tip_total" size="50" disabled/>
+</div>
+<br><br>
+<div class="row">
+<label>Total Bill</label><br>
+<input type="number" name="" id="total_billed" size="50" disabled/>
+</div>
+<br><br>
+</div>
+<script src="hoteljs.js">
+</script>
+</body>
+</html>
